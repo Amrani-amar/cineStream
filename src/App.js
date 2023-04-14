@@ -5,6 +5,7 @@ import Navbare from './compasants/Navbar';
 import Amar from './compasants/amar';
 import './compasants/Darks.css';
 import FilmCard from './compasants/FilmCard';
+import Footer from './compasants/Footer';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,6 +13,7 @@ function App() {
   const handleClick = () => {
     setDarkMode(!darkMode);
   };
+  
 
   return (
     <div className={darkMode ? "app-container dark-mode" : "app-container"}>
@@ -19,6 +21,9 @@ function App() {
       <Dark handleClick={handleClick} darkMode={darkMode} />
       <Amar />
       <FilmCard />
+      <Footer darkMode={darkMode} />
+
+
     </div>
   );
 }

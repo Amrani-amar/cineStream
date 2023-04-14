@@ -64,7 +64,8 @@ const FilmCard = () => {
           <div key={film.id} className="col-md-3">
             <div className="card mb-4">
               <div className="card-header">
-                <h5 className="card-title">{film.title}</h5>
+              <h5 className="card-title" style={{color: "#000"}}>{film.title}</h5>
+
               </div>
               <div className="card-body">
                 <div className="video-wrapper">
@@ -75,7 +76,7 @@ const FilmCard = () => {
                     height="100%"
                     className="react-player"
                   />
-                  <p>{film.description}</p>
+                  <p className="card-text film-description" style={{color:"#000"}}> {film.description} </p>
                 </div>
               </div>
             </div>

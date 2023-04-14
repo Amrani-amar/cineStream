@@ -1,7 +1,8 @@
 :root {
     --bg-color: #222;
-    --text-color: #fff;
+    --text-color: #fc4242;
     --border-color: #444;
+    
   }
   
   .app-container {
@@ -21,4 +22,9 @@
   .btn-toggle {
     margin-top: 10px;
   }
+  .app-container.dark-mode  p {
+    color: var(--text-color);
+  }
+  
+  
   
