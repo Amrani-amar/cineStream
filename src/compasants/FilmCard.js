@@ -5,51 +5,51 @@ const FilmCard = () => {
   const [films, setFilms] = useState([
     {
       id: 1,
-      title: "Film 1",
-      description: "Ceci est la description du film 1",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Fellag",
+      description: "fellag video humour",
+      videoUrl: "https://youtu.be/n-BVrwDvr4Q"
     },
     {
       id: 2,
-      title: "Film 2",
-      description: "Ceci est la description du film 2",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "Fellag 2",
+      description: "ALGERIAN LOVE STORY",
+      videoUrl: "https://youtu.be/NTNUF9CPgM4"
     },
     {
       id: 3,
-      title: "Film 3",
-      description: "Ceci est la description du film 3",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "LE DERNIER CHAMEAU",
+      description: "LE DERNIER CHAMEAU.",
+      videoUrl: "https://youtu.be/JkIZlGeRoR0"
     },
     {
       id: 4,
-      title: "Film 4",
-      description: "Ceci est la description du film 4",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "JACKIE CHAN ",
+      description: "Dans le bronx",
+      videoUrl: "https://youtu.be/DaC8VWudOPo"
     },
     {
       id: 5,
-      title: "Film 5",
-      description: "Ceci est la description du film 5",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "L'INSPECTEUR TAHAR",
+      description: "LES VACANCES ",
+      videoUrl: "https://youtu.be/rBWVUbFpepE"
     },
     {
       id: 6,
-      title: "Film 6",
-      description: "Ceci est la description du film 6",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "HASSAN TERRO",
+      description: "USE HACESSAN TERRO",
+      videoUrl: "https://youtu.be/CslW5g-znMA"
     },
     {
       id: 7,
-      title: "Film 7",
-      description: "Ceci est la description du film 7",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "JACKIE CHAN 2",
+      description: "LE COMBAT DES MAITRES",
+      videoUrl: "https://youtu.be/UQfzMuOy1ls"
     },
     {
       id: 8,
-      title: "Film 8",
-      description: "Ceci est la description du film 8",
-      videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      title: "BALLE PERDUE",
+      description: "BALLE PERDUE 1",
+      videoUrl: "https://youtu.be/isu-Lrn9byA"
     }
   ]);
 
